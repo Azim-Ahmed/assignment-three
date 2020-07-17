@@ -20,7 +20,7 @@ function feetToMile(feet) {
 
 //** for Wood calculation 
 
-function woodcalculator(chair, table, bed) {
+function woodCalculator(chair, table, bed) {
 
     if (chair < 0) {
         return "Warning ! there  will not no negative number of chair    ";
@@ -76,7 +76,7 @@ else if(numberOfFloor > 20){
 
 
 //* for find shortest one
-function findShortest(arr) {
+function tinyFriend(arr) {
     let shortest = arr[0];
     for (let i = 0; i < arr.length; i++) {
 
